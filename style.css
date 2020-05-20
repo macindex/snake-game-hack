@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  font-family: arial;
+  background: #2ecc71;
+  background-image: linear-gradient(to top left, #2980b9, #16a085, #2ecc71);
+  position: relative;
+  text-align: center;
+}
+h1{
+	border: double;
+}
+#snake{
+  border-style: outset;
+  width: 610px;
+  height: 630px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-shadow: 0 0 1px 2px rgba(0,0,0,0.3);
+
+}
+
+footer {
+  padding: 5px;
+  color: black;
+  font-size: 14px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
